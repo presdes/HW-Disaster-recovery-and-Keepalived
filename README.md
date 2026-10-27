@@ -35,7 +35,7 @@
 * **Команда:** `sudo nano /etc/keepalived/keepalived.conf`
 * **Содержимое:**
   
-  ```keepalived
+  ```nginx
   global_defs {
       router_id LVS_MASTER
       script_user root
@@ -73,7 +73,7 @@
 * **Команда:** `sudo nano /etc/keepalived/keepalived.conf`
 * **Содержимое:**
   
-  ```keepalived
+  ```nginx
   global_defs {
       router_id LVS_MASTER
       script_user root
