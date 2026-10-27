@@ -15,6 +15,7 @@
 
 * **Команда:** `sudo nano /etc/keepalived/check_web.sh`
 * **Содержимое:**
+  
   ```bash
   #!/bin/bash
   # Check: port 80 is listening, and index.html exists
@@ -33,6 +34,7 @@
 
 * **Команда:** `sudo nano /etc/keepalived/keepalived.conf`
 * **Содержимое:**
+  
   ```keepalived
   global_defs {
       router_id LVS_MASTER
@@ -70,6 +72,7 @@
 
 * **Команда:** `sudo nano /etc/keepalived/keepalived.conf`
 * **Содержимое:**
+  
   ```keepalived
   global_defs {
       router_id LVS_MASTER
