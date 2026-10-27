@@ -33,7 +33,7 @@
 
 * **Команда:** `sudo nano /etc/keepalived/keepalived.conf`
 * **Содержимое:**
-  ```text
+  ```keepalived
   global_defs {
       router_id LVS_MASTER
       script_user root
@@ -70,7 +70,7 @@
 
 * **Команда:** `sudo nano /etc/keepalived/keepalived.conf`
 * **Содержимое:**
-  ```text
+  ```keepalived
   global_defs {
       router_id LVS_MASTER
       script_user root
