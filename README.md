@@ -13,9 +13,8 @@
 
 Создайте Bash-скрипт, который будет отслеживать доступность веб-сервера.
 
-* **Команда:** `sudo nano /etc/keepalived/check_web.sh`
-* **Содержимое:**
-  
+**Команда:** `sudo nano /etc/keepalived/check_web.sh`
+
   ```bash
   #!/bin/bash
   # Check: port 80 is listening, and index.html exists
@@ -32,8 +31,7 @@
 
 Примените конфигурацию для основной машины.
 
-* **Команда:** `sudo nano /etc/keepalived/keepalived.conf`
-* **Содержимое:**
+**Команда:** `sudo nano /etc/keepalived/keepalived.conf`
   
   ```nginx
   global_defs {
@@ -70,8 +68,7 @@
 
 Примените конфигурацию для резервной машины.
 
-* **Команда:** `sudo nano /etc/keepalived/keepalived.conf`
-* **Содержимое:**
+**Команда:** `sudo nano /etc/keepalived/keepalived.conf`
   
   ```nginx
   global_defs {
