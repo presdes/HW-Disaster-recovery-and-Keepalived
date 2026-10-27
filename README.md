@@ -144,8 +144,7 @@ gigabitEthernet 0/0
 ```
 Router2>enable
 Router2#conf term
-Enter configuration
-commands, one per line. End with CNTL/Z.
+Enter configuration commands, one per line. End with CNTL/Z.
 Router2 (config) #int g
 Router2 (config) #int gigabitEthernet 0/1
 Router2 (config-if) #standby 1 track g
