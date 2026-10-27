@@ -130,6 +130,22 @@ ip a show enp0s3 | grep 192.168.1.121
 ---
 ## Задание 2
 
+```
+Router1>enable
+Router1#conf term
+Enter configuration commands, one per line. End with CNTL/Z.
+Router1 (config) #int g
+Routerl (config) #int gigabitEthernet
+Routerl (config-if) #standby 1 priority
+Router1 (config-if) #standby 1 preempt
+Router1 (config-if) #standby 1 track g
+Routerl (config-if) #standby 1 track
+Router1 (config-if) #
+0/1
+95
+gigabitEthernet 0/0
+
+```
 
 
 ---
